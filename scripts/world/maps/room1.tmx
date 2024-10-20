@@ -95,7 +95,7 @@
     <property name="text3" value="* AND TO THOSE WHO SAY [This is dark place but with another name]"/>
     <property name="text4" value="* THEN [I shall give you a 100% money-back guarentee]"/>
     <property name="text5" value="* [Only, ] IF YOU DO NOT FIND THIS TO BE [Big shot] ENOUGH, AND YOU WILL ALSO BE [Punished by law]."/>
-    <property name="text6" value="* HEHEHEHEHHAHAHAHAHHAHAHHEHEHEAHAHAHHA"/>
+    <property name="text6" value="* HEHEHEHEHAHAHAHAHHAHAHEHEHEAHAHAHA"/>
    </properties>
   </object>
   <object id="27" name="savepoint" x="80" y="210" width="40" height="40">

@@ -432,7 +432,7 @@ return {
             ["text3"] = "* AND TO THOSE WHO SAY [This is dark place but with another name]",
             ["text4"] = "* THEN [I shall give you a 100% money-back guarentee]",
             ["text5"] = "* [Only, ] IF YOU DO NOT FIND THIS TO BE [Big shot] ENOUGH, AND YOU WILL ALSO BE [Punished by law].",
-            ["text6"] = "* HEHEHEHEHHAHAHAHAHHAHAHHEHEHEAHAHAHHA"
+            ["text6"] = "* HEHEHEHEHAHAHAHAHHAHAHEHEHEAHAHAHA"
           }
         },
         {
