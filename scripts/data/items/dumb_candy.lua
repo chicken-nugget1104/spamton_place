@@ -5,9 +5,9 @@ function item:init()
     super.init(self)
 
     -- Display name
-    self.name = "UltimatCandy"
+    self.name = "DumCandy"
     -- Name displayed when used in battle (optional)
-    self.use_name = "ULTIMATE CANDY"
+    self.use_name = "DUMB CANDY"
 
     -- Item type (item, key, weapon, armor)
     self.type = "item"
@@ -15,14 +15,14 @@ function item:init()
     self.icon = nil
 
     -- Battle description
-    self.effect = "Best\nhealing"
+    self.effect = "Worst\nhealing"
     -- Shop description
-    self.shop = "Perfection"
+    self.shop = "dumb"
     -- Menu description
-    self.description = "Sparkles with perfection.\nMust be shared with everyone. +??HP"
+    self.description = "dum"
 
     -- Amount healed (HealItem variable)
-    self.heal_amount = 1
+    self.heal_amount = -50
 
     -- Default shop price (sell price is halved)
     self.price = 100
@@ -49,9 +49,9 @@ function item:init()
 
     -- Character reactions (key = party member id)
     self.reactions = {
-        susie = "Hey! It's hollow inside!",
-        ralsei = "I like the texture!",
-        noelle = "That was underwhelming...",
+        susie = "This sucks.",
+        ralsei = "Uhhh, i don't like it?",
+        noelle = "...What.",
     }
 end
 
