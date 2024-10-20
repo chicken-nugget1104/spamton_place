@@ -454,8 +454,8 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["text1"] = "* Silence echoes in the darkness\nof this familiar-yet-different\nscenery.",
-            ["text2"] = "* The power of avoiding copying\nofficial music shines within\nyou."
+            ["text1"] = "* Being in spamton place....",
+            ["text2"] = "* It fills you with [color:red]DETERMINATION[color:reset]."
           }
         },
         {
@@ -502,9 +502,10 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["actor"] = "wall",
+            ["actor"] = "wallton",
             ["flagcheck"] = "wall_hit",
-            ["text1"] = "* I Am the Wall Guardian.[wait:5]\n* This Wall is Off Limits for you\nno-good wall slammers."
+            ["text1"] = "* I AM WALLTON W. WALLTON AND I AM A [Guardian of the] [Walls]!!!",
+            ["text2"] = "* NOW GET [Off my lawn] YOU [Whippersnapper]!!!!!"
           }
         }
       }

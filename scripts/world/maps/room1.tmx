@@ -102,12 +102,8 @@
   </object>
   <object id="27" name="savepoint" x="80" y="210" width="40" height="40">
    <properties>
-    <property name="text1">* Silence echoes in the darkness
-of this familiar-yet-different
-scenery.</property>
-    <property name="text2">* The power of avoiding copying
-official music shines within
-you.</property>
+    <property name="text1" value="* Being in spamton place...."/>
+    <property name="text2" value="* It fills you with [color:red]DETERMINATION[color:reset]."/>
    </properties>
   </object>
   <object id="29" name="transition" x="800" y="200" width="40" height="80">
@@ -124,11 +120,10 @@ you.</property>
   </object>
   <object id="35" name="npc" x="300" y="160">
    <properties>
-    <property name="actor" value="wall"/>
+    <property name="actor" value="wallton"/>
     <property name="flagcheck" value="wall_hit"/>
-    <property name="text1">* I Am the Wall Guardian.[wait:5]
-* This Wall is Off Limits for you
-no-good wall slammers.</property>
+    <property name="text1" value="* I AM WALLTON W. WALLTON AND I AM A [Guardian of the] [Walls]!!!"/>
+    <property name="text2" value="* NOW GET [Off my lawn] YOU [Whippersnapper]!!!!!"/>
    </properties>
    <point/>
   </object>
