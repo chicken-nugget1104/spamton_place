@@ -1,4 +1,4 @@
-local actor, super = Class(Actor, "wallt")
+local actor, super = Class(Actor, "wallton")
 
 function actor:init()
     self.name = "Walter white"
