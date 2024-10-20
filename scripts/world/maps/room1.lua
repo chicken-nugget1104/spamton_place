@@ -20,6 +20,12 @@ return {
       firstgid = 1,
       filename = "../tilesets/castle.tsx",
       exportfilename = "../tilesets/castle.lua"
+    },
+    {
+      name = "castlestylized",
+      firstgid = 41,
+      filename = "../tilesets/castlestylized.tsx",
+      exportfilename = "../tilesets/castlestylized.lua"
     }
   },
   layers = {
@@ -90,9 +96,9 @@ return {
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 30, 31, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 34, 35, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 38, 39, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 70, 71, 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 74, 75, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 78, 79, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -431,8 +437,9 @@ return {
             ["text2"] = "* I DO [Owe you some deals] AND [Steals]!",
             ["text3"] = "* AND TO THOSE WHO SAY [This is dark place but with another name]",
             ["text4"] = "* THEN [I shall give you a 100% money-back guarentee]",
-            ["text5"] = "* [Only, ] IF YOU DO NOT FIND THIS TO BE [Big shot] ENOUGH, AND YOU WILL ALSO BE [Punished by law].",
-            ["text6"] = "* HEHEHEHEHAHAHAHAHHAHAHEHEHEAHAHAHA"
+            ["text5"] = "* [Only, ] IF YOU DO NOT FIND THIS TO BE [Big shot] ENOUGH",
+            ["text6"] = "* AND YOU WILL ALSO BE [Punished by law].",
+            ["text7"] = "*HEHEHEHEHAHAHAHAHHAHAHEHEHEAHAHAHA"
           }
         },
         {

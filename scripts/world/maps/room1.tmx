@@ -7,6 +7,7 @@
   <property name="name" value="Test Map - Room 1"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/castle.tsx"/>
+ <tileset firstgid="41" source="../tilesets/castlestylized.tsx"/>
  <layer id="1" name="tiles" width="20" height="24">
   <data encoding="csv">
 0,22,13,23,23,13,23,23,23,13,23,23,13,24,0,0,0,0,0,0,
@@ -42,9 +43,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,30,31,32,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,34,35,36,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,38,39,40,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,70,71,72,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,74,75,76,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,78,79,80,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -94,8 +95,9 @@
     <property name="text2" value="* I DO [Owe you some deals] AND [Steals]!"/>
     <property name="text3" value="* AND TO THOSE WHO SAY [This is dark place but with another name]"/>
     <property name="text4" value="* THEN [I shall give you a 100% money-back guarentee]"/>
-    <property name="text5" value="* [Only, ] IF YOU DO NOT FIND THIS TO BE [Big shot] ENOUGH, AND YOU WILL ALSO BE [Punished by law]."/>
-    <property name="text6" value="* HEHEHEHEHAHAHAHAHHAHAHEHEHEAHAHAHA"/>
+    <property name="text5" value="* [Only, ] IF YOU DO NOT FIND THIS TO BE [Big shot] ENOUGH"/>
+    <property name="text6" value="* AND YOU WILL ALSO BE [Punished by law]."/>
+    <property name="text7" value="*HEHEHEHEHAHAHAHAHHAHAHEHEHEAHAHAHA"/>
    </properties>
   </object>
   <object id="27" name="savepoint" x="80" y="210" width="40" height="40">
