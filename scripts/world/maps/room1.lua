@@ -1,7 +1,8 @@
 return {
-  version = "1.5",
+  version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.8.4",
+  tiledversion = "1.11.0",
+  class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
   width = 20,
@@ -17,7 +18,8 @@ return {
     {
       name = "castle",
       firstgid = 1,
-      filename = "../tilesets/castle.tsx"
+      filename = "../tilesets/castle.tsx",
+      exportfilename = "../tilesets/castle.lua"
     }
   },
   layers = {
@@ -29,6 +31,7 @@ return {
       height = 24,
       id = 1,
       name = "tiles",
+      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -72,6 +75,7 @@ return {
       height = 24,
       id = 2,
       name = "decal",
+      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -112,6 +116,7 @@ return {
       draworder = "topdown",
       id = 3,
       name = "collision",
+      class = "",
       visible = true,
       opacity = 0.5,
       offsetx = 0,
@@ -400,6 +405,7 @@ return {
       draworder = "topdown",
       id = 4,
       name = "objects",
+      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
@@ -420,9 +426,9 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["actor"] = "starwalker",
-            ["text1"] = "* These [color:yellow]stairs[color:reset] are [color:yellow]Pissing[color:reset] me\noff...",
-            ["text2"] = "* I'm the original   [color:yellow]Starwalker[color:reset]"
+            ["actor"] = "spamton",
+            ["text1"] = "* HEY HEY! THANKS FOR CHECKING OUT [My own ripoff of] [Dark place]!",
+            ["text2"] = "* I DO [Owe you some deals] AND [Steals]!"
           }
         },
         {
@@ -440,19 +446,6 @@ return {
             ["text1"] = "* Silence echoes in the darkness\nof this familiar-yet-different\nscenery.",
             ["text2"] = "* The power of avoiding copying\nofficial music shines within\nyou."
           }
-        },
-        {
-          id = 28,
-          name = "squeak",
-          type = "",
-          shape = "rectangle",
-          x = 680,
-          y = 600,
-          width = 40,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {}
         },
         {
           id = 29,
@@ -510,6 +503,7 @@ return {
       draworder = "topdown",
       id = 5,
       name = "markers",
+      class = "",
       visible = true,
       opacity = 1,
       offsetx = 0,
