@@ -87,11 +87,15 @@
   <object id="26" x="600" y="800" width="160" height="40"/>
  </objectgroup>
  <objectgroup color="#ff00ff" id="4" name="objects">
-  <object id="19" name="npc" x="480" y="840" width="40" height="40">
+  <object id="19" name="npc" x="280" y="760" width="40" height="40">
    <properties>
     <property name="actor" value="spamton"/>
     <property name="text1" value="* HEY HEY! THANKS FOR CHECKING OUT [My own ripoff of] [Dark place]!"/>
     <property name="text2" value="* I DO [Owe you some deals] AND [Steals]!"/>
+    <property name="text3" value="* AND TO THOSE WHO SAY [This is dark place but with another name]"/>
+    <property name="text4" value="* THEN [I shall give you a 100% money-back guarentee]"/>
+    <property name="text5" value="* [Only, ] IF YOU DO NOT FIND THIS TO BE [Big shot] ENOUGH, AND YOU WILL ALSO BE [Punished by law]."/>
+    <property name="text6" value="* HEHEHEHEHHAHAHAHAHHAHAHHEHEHEAHAHAHHA"/>
    </properties>
   </object>
   <object id="27" name="savepoint" x="80" y="210" width="40" height="40">

@@ -419,8 +419,8 @@ return {
           name = "npc",
           type = "",
           shape = "rectangle",
-          x = 480,
-          y = 840,
+          x = 280,
+          y = 760,
           width = 40,
           height = 40,
           rotation = 0,
@@ -428,7 +428,11 @@ return {
           properties = {
             ["actor"] = "spamton",
             ["text1"] = "* HEY HEY! THANKS FOR CHECKING OUT [My own ripoff of] [Dark place]!",
-            ["text2"] = "* I DO [Owe you some deals] AND [Steals]!"
+            ["text2"] = "* I DO [Owe you some deals] AND [Steals]!",
+            ["text3"] = "* AND TO THOSE WHO SAY [This is dark place but with another name]",
+            ["text4"] = "* THEN [I shall give you a 100% money-back guarentee]",
+            ["text5"] = "* [Only, ] IF YOU DO NOT FIND THIS TO BE [Big shot] ENOUGH, AND YOU WILL ALSO BE [Punished by law].",
+            ["text6"] = "* HEHEHEHEHHAHAHAHAHHAHAHHEHEHEAHAHAHHA"
           }
         },
         {
