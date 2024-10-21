@@ -12,7 +12,8 @@ return {
   nextlayerid = 6,
   nextobjectid = 53,
   properties = {
-    ["name"] = "Test Map - Room 1"
+    ["music"] = "spamton_castle",
+    ["name"] = "SPAMTON'S BIG [[get the fuck out of my room im playing minecraft]]"
   },
   tilesets = {
     {

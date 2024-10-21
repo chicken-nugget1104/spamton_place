@@ -4,7 +4,8 @@
   <export target="room1.lua" format="lua"/>
  </editorsettings>
  <properties>
-  <property name="name" value="Test Map - Room 1"/>
+  <property name="music" value="spamton_castle"/>
+  <property name="name" value="SPAMTON'S BIG [[get the fuck out of my room im playing minecraft]]"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/castle.tsx"/>
  <tileset firstgid="41" source="../tilesets/castlestylized.tsx"/>
