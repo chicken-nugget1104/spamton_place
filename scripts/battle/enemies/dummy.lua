@@ -4,22 +4,22 @@ function Dummy:init()
     super.init(self)
 
     -- Enemy name
-    self.name = "Dummy"
+    self.name = "SpamDummy"
     -- Sets the actor, which handles the enemy's sprites (see scripts/data/actors/dummy.lua)
     self:setActor("dummy")
 
     -- Enemy health
-    self.max_health = 450
-    self.health = 450
+    self.max_health = 5454
+    self.health = 5453
     -- Enemy attack (determines bullet damage)
-    self.attack = 4
+    self.attack = 8
     -- Enemy defense (usually 0)
-    self.defense = 0
+    self.defense = 2
     -- Enemy reward
     self.money = 100
 
     -- Mercy given when sparing this enemy before its spareable (20% for basic enemies)
-    self.spare_points = 20
+    self.spare_points = 0
 
     -- List of possible wave ids, randomly picked each turn
     self.waves = {
@@ -30,20 +30,23 @@ function Dummy:init()
 
     -- Dialogue randomly displayed in the enemy's speech bubble
     self.dialogue = {
-        "..."
+        "TRANSMIT [Kromer]",
+        "MEET [Hot singles] STRAIGHT FROM [My]",
+        "BE A [Big shot!]",
+        "TAKE THE DEAL [[Deer]] [[Customer]]!!"
     }
 
     -- Check text (automatically has "ENEMY NAME - " at the start)
-    self.check = "AT 4 DF 0\n* Cotton heart and button eye\n* Looks just like a fluffy guy."
+    self.check = "NOWS YOUR CHANCE TO BE A [[Skyblock]]"
 
     -- Text randomly displayed at the bottom of the screen each turn
     self.text = {
-        "* The dummy gives you a soft\nsmile.",
-        "* The power of fluffy boys is\nin the air.",
-        "* Smells like cardboard.",
+        "* NOTHINGS WRONG WITH A\nLITTLE [[Splurge]]\n[Once in a while]!",
+        "* BE [Big shot]",
+        "* SLIDE THAT [Kromer] INTO THE SLOT!",
     }
     -- Text displayed at the bottom of the screen when the enemy has low health
-    self.low_health_text = "* The dummy looks like it's\nabout to fall over."
+    self.low_health_text = "* THIS ISNT VERY [Big shot]!!!\nI'LL BE IN MY [[Trailer]]"
 
     -- Register act called "Smile"
     self:registerAct("Smile")
@@ -54,30 +57,21 @@ end
 
 function Dummy:onAct(battler, name)
     if name == "Smile" then
-        -- Give the enemy 100% mercy
-        self:addMercy(100)
         -- Change this enemy's dialogue for 1 turn
-        self.dialogue_override = "... ^^"
+        self.dialogue_override = "..."
         -- Act text (since it's a list, multiple textboxes)
         return {
-            "* You smile.[wait:5]\n* The dummy smiles back.",
-            "* It seems the dummy just wanted\nto see you happy."
+            "* You smile.[wait:5]\n* The dummy does nothing.",
+            "* Sadness."
         }
 
     elseif name == "Tell Story" then
-        -- Loop through all enemies
-        for _, enemy in ipairs(Game.battle.enemies) do
-            -- Make the enemy tired
-            enemy:setTired(true)
-        end
-        return "* You and Ralsei told the dummy\na bedtime story.\n* The enemies became [color:blue]TIRED[color:reset]..."
+        return "* You and Ralsei told the dummy\na bedtime story.\n* The enemies became [color:blue]NOT TIRED[color:reset]..."
 
     elseif name == "Standard" then --X-Action
-        -- Give the enemy 50% mercy
-        self:addMercy(50)
         if battler.chara.id == "ralsei" then
             -- R-Action text
-            return "* Ralsei bowed politely.\n* The dummy spiritually bowed\nin return."
+            return "* Ralsei bowed politely.\n* The dummy did nothing."
         elseif battler.chara.id == "susie" then
             -- S-Action: start a cutscene (see scripts/battle/cutscenes/dummy.lua)
             Game.battle:startActCutscene("dummy", "susie_punch")
