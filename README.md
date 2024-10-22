@@ -5,7 +5,7 @@ I (the creator) will only be merging PR's from now on
 because
 uh
 
-lapse of judgement (...i am of legal age to use discord, and i somehow found something so childish funny. MY HUMOR SUCKS-)
+lapse of judgement (...i somehow found something so childish funny. MY HUMOR SUCKS-)
 
 
 
