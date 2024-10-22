@@ -20,9 +20,27 @@ function MovingArena:onStart()
     -- Store starting arena position
     self.arena_start_x = arena.x
     self.arena_start_y = arena.y
+
+    local newarena_y = arena.y
+
+    -- Every 0.33 seconds...
+    self.timer:every(1/2, function()
+        -- Our X position is offscreen, to the right
+        local x = SCREEN_WIDTH + 20
+        -- Get a random Y position between the top and the bottom of the arena
+        local y = Utils.random(Game.battle.arena.top, Game.battle.arena.bottom)
+
+        -- Spawn smallbullet going left with speed 8 (see scripts/battle/bullets/smallbullet.lua)
+        local bullet = self:spawnBullet("smallbullet", x, newarena_y, math.rad(180), Utils.random(3, 9, 1))
+
+        -- Dont remove the bullet offscreen, because we spawn it offscreen
+        bullet.remove_offscreen = false
+    end)
 end
 
 function MovingArena:update()
+    local arena = Game.battle.arena
+
     -- Increment timer for arena movement
     self.siner = self.siner + DT
 
@@ -31,6 +49,8 @@ function MovingArena:update()
 
     -- Move the arena
     Game.battle.arena:setPosition(self.arena_start_x, self.arena_start_y + offset)
+
+    local newarena_y = arena.y
 
     super.update(self)
 end
