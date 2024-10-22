@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 6,
-  nextobjectid = 53,
+  nextobjectid = 56,
   properties = {
     ["music"] = "spamton_castle",
     ["name"] = "SPAMTON'S BIG [[get the fuck out of my room im playing minecraft]]"
@@ -25,7 +25,8 @@ return {
     {
       name = "castlestylized",
       firstgid = 41,
-      filename = "../tilesets/castlestylized.tsx"
+      filename = "../tilesets/castlestylized.tsx",
+      exportfilename = "../tilesets/castlestylized.lua"
     }
   },
   layers = {
@@ -64,7 +65,7 @@ return {
         0, 0, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 22, 23, 24, 0,
         0, 0, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 22, 1, 24, 0,
         0, 0, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 10, 11, 12, 0,
-        0, 0, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 10, 11, 12, 0,
+        0, 0, 0, 2, 3, 4, 15, 15, 15, 2, 3, 4, 0, 0, 0, 0, 10, 11, 12, 0,
         0, 6, 7, 7, 7, 7, 11, 11, 11, 7, 7, 7, 7, 7, 7, 7, 11, 11, 12, 0,
         0, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 15, 15, 15, 15, 16, 0,
         0, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 12, 0, 0, 0, 0, 0, 0,
@@ -109,9 +110,9 @@ return {
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 70, 71, 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 74, 75, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 78, 79, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -150,9 +151,9 @@ return {
           type = "",
           shape = "rectangle",
           x = 560,
-          y = 120,
+          y = 0,
           width = 40,
-          height = 80,
+          height = 200,
           rotation = 0,
           visible = true,
           properties = {}
@@ -241,9 +242,9 @@ return {
           type = "",
           shape = "rectangle",
           x = 0,
-          y = 120,
+          y = 0,
           width = 40,
-          height = 240,
+          height = 360,
           rotation = 0,
           visible = true,
           properties = {}
@@ -400,6 +401,45 @@ return {
           y = 400,
           width = 120,
           height = 320,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 53,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 40,
+          y = 680,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 54,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 40,
+          y = 0,
+          width = 520,
+          height = 120,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 55,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 640,
+          y = 520,
+          width = 120,
+          height = 80,
           rotation = 0,
           visible = true,
           properties = {}
