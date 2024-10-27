@@ -8,6 +8,8 @@ return {
 
     local scamtonneo = cutscene:getCharacter("scamtonneo")
 
+    cutscene:detachCamera()
+
     cutscene:setSpeaker(scamtonneo)
 
     cutscene:text("* IS THAT A    |_\nIG|-|NEr ???? // ///??\n   [[I spy with my little eye]]")
@@ -39,6 +41,9 @@ return {
     cutscene:text("* [here, have fun.]")
     cutscene:walkTo(scamtonneo, x+640, y, 0.5, "right")
     cutscene:startEncounter("spamemail")
+
+    cutscene:attachCamera()
+    Game.world.music:play("scamtonareaambient")
 
 
 
