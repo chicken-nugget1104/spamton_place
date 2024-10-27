@@ -5,7 +5,7 @@ function Spamton:init()
     self.width, self.height = 50, 84
     self.hitbox = {12,41, 30,40}
     self.path = "npcs/spamton"
-    self.voice = "sneo"
+    self.voice = "scamton"
     self.flip = "right"
 end
 

@@ -1,5 +1,5 @@
 return {
-  version = "1.10",
+  version = "1.11",
   luaversion = "5.1",
   tiledversion = "1.11.0",
   class = "",
@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 6,
-  nextobjectid = 14,
+  nextobjectid = 20,
   properties = {
     ["music"] = "spamton_castle",
     ["name"] = "SPAMTON'S [Awesome epic battle arena]"
@@ -25,8 +25,7 @@ return {
     {
       name = "castlestylized",
       firstgid = 41,
-      filename = "../tilesets/castlestylized.tsx",
-      exportfilename = "../tilesets/castlestylized.lua"
+      filename = "../tilesets/castlestylized.tsx"
     }
   },
   layers = {
@@ -48,10 +47,10 @@ return {
       properties = {},
       encoding = "lua",
       data = {
-        0, 0, 0, 0, 22, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 24, 0,
-        0, 0, 0, 0, 22, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 24, 0,
-        0, 0, 0, 0, 26, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 28, 0,
-        0, 0, 0, 0, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 0,
+        0, 0, 0, 0, 22, 23, 23, 23, 23, 24, 10, 11, 12, 22, 23, 23, 23, 23, 24, 0,
+        0, 0, 0, 0, 22, 23, 23, 23, 23, 24, 10, 11, 12, 22, 23, 23, 23, 23, 24, 0,
+        0, 0, 0, 0, 26, 27, 27, 27, 27, 28, 10, 11, 12, 26, 27, 27, 27, 27, 28, 0,
+        0, 0, 0, 0, 6, 7, 7, 7, 7, 7, 11, 11, 11, 7, 7, 7, 7, 7, 8, 0,
         0, 0, 0, 0, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 12, 0,
         0, 0, 0, 0, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 12, 0,
         0, 0, 0, 0, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 12, 0,
@@ -148,19 +147,6 @@ return {
           properties = {}
         },
         {
-          id = 4,
-          name = "",
-          type = "",
-          shape = "rectangle",
-          x = 160,
-          y = 80,
-          width = 600,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
           id = 7,
           name = "",
           type = "",
@@ -169,6 +155,32 @@ return {
           y = 280,
           width = 120,
           height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 16,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 160,
+          y = 0,
+          width = 240,
+          height = 120,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 17,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 520,
+          y = 0,
+          width = 240,
+          height = 120,
           rotation = 0,
           visible = true,
           properties = {}
@@ -209,6 +221,19 @@ return {
           shape = "point",
           x = 40,
           y = 360,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 19,
+          name = "exit",
+          type = "",
+          shape = "point",
+          x = 457.35,
+          y = 61.376,
           width = 0,
           height = 0,
           rotation = 0,
@@ -277,6 +302,22 @@ return {
           properties = {
             ["actor"] = "darkwalker",
             ["text1"] = "* I am the [wait:5]    Original   [wait:5]Darkwalker"
+          }
+        },
+        {
+          id = 18,
+          name = "transition",
+          type = "",
+          shape = "rectangle",
+          x = 400,
+          y = -40,
+          width = 120,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["map"] = "room3",
+            ["marker"] = "entry"
           }
         }
       }

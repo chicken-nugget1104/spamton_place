@@ -3,6 +3,55 @@ return {
     -- This allows it to fetch us useful documentation that shows all of the available cutscene functions while writing our cutscenes!
 
     ---@param cutscene WorldCutscene
+
+    meet = function(cutscene, event)
+
+    local scamtonneo = cutscene:getCharacter("scamtonneo")
+
+    cutscene:setSpeaker(scamtonneo)
+
+    cutscene:text("* IS THAT A    |_\nIG|-|NEr ???? // ///??\n   [[I spy with my little eye]]")
+
+    Game.world.music:play("scamton")
+
+
+    cutscene:panTo("scamstart")
+
+
+    local x = event.x + event.width/2
+    local y = event.y + event.height/2
+
+    cutscene:text("* what a [[peasant.]][wait:5] \n    surpri$!! !11 !")
+    cutscene:text("* NOW i [can] fin[wait:1]n[wait:2]n[wait:3]il[wait:5]i . ....    .]")
+    cutscene:text("[[BIG SHOT]].")
+    cutscene:text("* [proceed with] out cuatioon")
+    cutscene:walkTo(scamtonneo, x, y, 0.75, "left")
+    cutscene:text("* lemme at yer [[culmination of your very being]]")
+    
+    cutscene:text("* ... ")
+    cutscene:text("* where is it??? ")
+    cutscene:text("* [color:purple]don't see that heart??\n[wait:5][color:green] no[color:purple]\n[wait:5][[shit!!]] !!11 11")
+    cutscene:text("* [Buh-bye!!!!]")
+    cutscene:walkTo(scamtonneo, x+320, y, 2, "right")
+    scamtonneo:shake(4)
+    cutscene:walkTo(scamtonneo, x, y, 1, "left")
+    cutscene:text("* OH R1gHt!!!")
+    cutscene:text("* [here, have fun.]")
+    cutscene:walkTo(scamtonneo, x+640, y, 0.5, "right")
+
+
+
+
+    end
+
+}
+
+
+--[[return {
+    -- The inclusion of the below line tells the language server that the first parameter of the cutscene is `WorldCutscene`.
+    -- This allows it to fetch us useful documentation that shows all of the available cutscene functions while writing our cutscenes!
+
+    --@param cutscene WorldCutscene
     wall = function(cutscene, event)
         -- Open textbox and wait for completion
         cutscene:text("* The wall seems cracked.")
@@ -74,4 +123,4 @@ return {
 
     
 
-}
+}]]
