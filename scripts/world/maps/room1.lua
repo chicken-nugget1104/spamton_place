@@ -10,11 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 6,
-<<<<<<< HEAD
-  nextobjectid = 57,
-=======
-  nextobjectid = 56,
->>>>>>> dbbae5da4592c748912dd41726df31e9c9fe58b7
+  nextobjectid = 60,
   properties = {
     ["music"] = "spamton_castle",
     ["name"] = "SPAMTON'S BIG [[get the fuck out of my room im playing minecraft]]"
@@ -29,8 +25,7 @@ return {
     {
       name = "castlestylized",
       firstgid = 41,
-      filename = "../tilesets/castlestylized.tsx",
-      exportfilename = "../tilesets/castlestylized.lua"
+      filename = "../tilesets/castlestylized.tsx"
     }
   },
   layers = {
@@ -62,25 +57,14 @@ return {
         0, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 12, 0, 0, 0, 0, 0, 0,
         0, 14, 15, 15, 11, 11, 11, 11, 11, 11, 11, 15, 15, 16, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 14, 15, 11, 11, 11, 15, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-<<<<<<< HEAD
-        23, 0, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0,
-        23, 23, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0,
-        23, 23, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0,
-        23, 23, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 18, 19, 20, 0,
-        23, 23, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 22, 23, 24, 0,
-        23, 23, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 22, 1, 24, 0,
-        23, 23, 23, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 10, 11, 12, 0,
-        23, 23, 23, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 10, 11, 12, 0,
-=======
         0, 0, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 18, 19, 20, 0,
-        0, 0, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 22, 23, 24, 0,
+        11, 11, 11, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 18, 19, 20, 0,
+        11, 11, 11, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 22, 23, 24, 0,
         0, 0, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 22, 1, 24, 0,
         0, 0, 0, 2, 3, 4, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 10, 11, 12, 0,
         0, 0, 0, 2, 3, 4, 15, 15, 15, 2, 3, 4, 0, 0, 0, 0, 10, 11, 12, 0,
->>>>>>> dbbae5da4592c748912dd41726df31e9c9fe58b7
         0, 6, 7, 7, 7, 7, 11, 11, 11, 7, 7, 7, 7, 7, 7, 7, 11, 11, 12, 0,
         0, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 15, 15, 15, 15, 16, 0,
         0, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 12, 0, 0, 0, 0, 0, 0,
@@ -239,32 +223,6 @@ return {
           properties = {}
         },
         {
-          id = 11,
-          name = "",
-          type = "",
-          shape = "rectangle",
-          x = 0,
-          y = 720,
-          width = 40,
-          height = 200,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
-          id = 16,
-          name = "",
-          type = "",
-          shape = "rectangle",
-          x = 0,
-          y = 0,
-          width = 40,
-          height = 360,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
           id = 23,
           name = "",
           type = "",
@@ -343,32 +301,6 @@ return {
           properties = {}
         },
         {
-          id = 45,
-          name = "",
-          type = "",
-          shape = "rectangle",
-          x = 0,
-          y = 360,
-          width = 40,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
-          id = 46,
-          name = "",
-          type = "",
-          shape = "rectangle",
-          x = 40,
-          y = 400,
-          width = 40,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
           id = 47,
           name = "",
           type = "",
@@ -408,25 +340,6 @@ return {
           properties = {}
         },
         {
-          id = 53,
-          name = "",
-          type = "",
-          shape = "rectangle",
-<<<<<<< HEAD
-          x = 80,
-          y = 400,
-          width = 40,
-          height = 240,
-=======
-          x = 40,
-          y = 680,
-          width = 40,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
           id = 54,
           name = "",
           type = "",
@@ -435,7 +348,6 @@ return {
           y = 0,
           width = 520,
           height = 120,
->>>>>>> dbbae5da4592c748912dd41726df31e9c9fe58b7
           rotation = 0,
           visible = true,
           properties = {}
@@ -445,17 +357,62 @@ return {
           name = "",
           type = "",
           shape = "rectangle",
-<<<<<<< HEAD
-          x = -40,
-          y = 520,
-          width = 40,
-          height = 200,
-=======
           x = 640,
           y = 520,
           width = 120,
           height = 80,
->>>>>>> dbbae5da4592c748912dd41726df31e9c9fe58b7
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 56,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 0,
+          y = 120,
+          width = 40,
+          height = 400,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 57,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 40,
+          y = 400,
+          width = 80,
+          height = 120,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 58,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 40,
+          y = 600,
+          width = 80,
+          height = 120,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 59,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 0,
+          y = 600,
+          width = 40,
+          height = 360,
           rotation = 0,
           visible = true,
           properties = {}

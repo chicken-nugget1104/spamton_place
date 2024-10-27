@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="57">
-=======
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="56">
->>>>>>> dbbae5da4592c748912dd41726df31e9c9fe58b7
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="60">
  <editorsettings>
   <export target="room1.lua" format="lua"/>
  </editorsettings>
@@ -25,25 +21,14 @@
 0,10,11,11,11,11,11,11,11,11,11,11,11,12,0,0,0,0,0,0,
 0,14,15,15,11,11,11,11,11,11,11,15,15,16,0,0,0,0,0,0,
 0,0,0,0,14,15,11,11,11,15,16,0,0,0,0,0,0,0,0,0,
-<<<<<<< HEAD
-23,0,0,2,3,4,0,0,0,2,3,4,0,0,0,0,0,0,0,0,
-23,23,0,2,3,4,0,0,0,2,3,4,0,0,0,0,0,0,0,0,
-23,23,0,2,3,4,0,0,0,2,3,4,0,0,0,0,0,0,0,0,
-23,23,0,2,3,4,0,0,0,2,3,4,0,0,0,0,18,19,20,0,
-23,23,0,2,3,4,0,0,0,2,3,4,0,0,0,0,22,23,24,0,
-23,23,0,2,3,4,0,0,0,2,3,4,0,0,0,0,22,1,24,0,
-23,23,23,2,3,4,0,0,0,2,3,4,0,0,0,0,10,11,12,0,
-23,23,23,2,3,4,0,0,0,2,3,4,0,0,0,0,10,11,12,0,
-=======
 0,0,0,2,3,4,0,0,0,2,3,4,0,0,0,0,0,0,0,0,
 0,0,0,2,3,4,0,0,0,2,3,4,0,0,0,0,0,0,0,0,
 0,0,0,2,3,4,0,0,0,2,3,4,0,0,0,0,0,0,0,0,
-0,0,0,2,3,4,0,0,0,2,3,4,0,0,0,0,18,19,20,0,
-0,0,0,2,3,4,0,0,0,2,3,4,0,0,0,0,22,23,24,0,
+11,11,11,2,3,4,0,0,0,2,3,4,0,0,0,0,18,19,20,0,
+11,11,11,2,3,4,0,0,0,2,3,4,0,0,0,0,22,23,24,0,
 0,0,0,2,3,4,0,0,0,2,3,4,0,0,0,0,22,1,24,0,
 0,0,0,2,3,4,0,0,0,2,3,4,0,0,0,0,10,11,12,0,
 0,0,0,2,3,4,15,15,15,2,3,4,0,0,0,0,10,11,12,0,
->>>>>>> dbbae5da4592c748912dd41726df31e9c9fe58b7
 0,6,7,7,7,7,11,11,11,7,7,7,7,7,7,7,11,11,12,0,
 0,10,11,11,11,11,11,11,11,11,11,11,11,11,15,15,15,15,16,0,
 0,10,11,11,11,11,11,11,11,11,11,11,11,12,0,0,0,0,0,0,
@@ -88,27 +73,21 @@
   <object id="5" x="600" y="280" width="200" height="40"/>
   <object id="9" x="560" y="800" width="40" height="120"/>
   <object id="10" x="40" y="920" width="520" height="40"/>
-  <object id="11" x="0" y="720" width="40" height="200"/>
-  <object id="16" x="0" y="0" width="40" height="360"/>
   <object id="23" x="600" y="640" width="40" height="40"/>
   <object id="24" x="640" y="600" width="120" height="40"/>
   <object id="25" x="760" y="640" width="40" height="160"/>
   <object id="26" x="600" y="800" width="160" height="40"/>
   <object id="38" x="480" y="400" width="40" height="320"/>
   <object id="39" x="520" y="680" width="120" height="40"/>
-  <object id="45" x="0" y="360" width="40" height="40"/>
-  <object id="46" x="40" y="400" width="40" height="40"/>
   <object id="47" x="520" y="400" width="40" height="40"/>
   <object id="48" x="560" y="360" width="40" height="40"/>
   <object id="49" x="240" y="400" width="120" height="320"/>
-<<<<<<< HEAD
-  <object id="53" x="80" y="400" width="40" height="240"/>
-  <object id="55" x="-40" y="520" width="40" height="200"/>
-=======
-  <object id="53" x="40" y="680" width="40" height="40"/>
   <object id="54" x="40" y="0" width="520" height="120"/>
   <object id="55" x="640" y="520" width="120" height="80"/>
->>>>>>> dbbae5da4592c748912dd41726df31e9c9fe58b7
+  <object id="56" x="0" y="120" width="40" height="400"/>
+  <object id="57" x="40" y="400" width="80" height="120"/>
+  <object id="58" x="40" y="600" width="80" height="120"/>
+  <object id="59" x="0" y="600" width="40" height="360"/>
  </objectgroup>
  <objectgroup color="#ff00ff" id="4" name="objects">
   <object id="19" name="npc" x="280" y="760" width="40" height="40">
