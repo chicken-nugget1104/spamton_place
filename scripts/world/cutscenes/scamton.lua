@@ -38,6 +38,7 @@ return {
     cutscene:text("* OH R1gHt!!!       I\n4lmost [forgor]")
     cutscene:text("* [here, have fun.]")
     cutscene:walkTo(scamtonneo, x+640, y, 0.5, "right")
+    cutscene:startEncounter("spamemail")
 
 
 
