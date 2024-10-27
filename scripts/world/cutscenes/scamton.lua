@@ -34,8 +34,8 @@ return {
     cutscene:text("* [Buh-bye!!!!]")
     cutscene:walkTo(scamtonneo, x+320, y, 2, "right")
     scamtonneo:shake(4)
-    cutscene:walkTo(scamtonneo, x, y, 1, "left")
-    cutscene:text("* OH R1gHt!!!")
+    cutscene:walkTo(scamtonneo, x+20, y, 1, "left")
+    cutscene:text("* OH R1gHt!!!       I\n4lmost [forgor]")
     cutscene:text("* [here, have fun.]")
     cutscene:walkTo(scamtonneo, x+640, y, 0.5, "right")
 
