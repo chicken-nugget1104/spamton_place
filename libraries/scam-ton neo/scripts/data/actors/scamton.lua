@@ -1,4 +1,4 @@
-local Spamton, super = Class(Actor, "spamtonneo")
+local Spamton, super = Class(Actor, "scamtonneo")
 
 function Spamton:init()
     super:init(self)
