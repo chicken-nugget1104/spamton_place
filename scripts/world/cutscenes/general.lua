@@ -4,51 +4,19 @@ return {
 
     ---@param cutscene WorldCutscene
 
-    meet = function(cutscene, event)
-
-    local scamtonneo = cutscene:getCharacter("scamtonneo")
-
-    cutscene:detachCamera()
-
-    cutscene:setSpeaker(scamtonneo)
-
-    cutscene:text("* IS THAT A    |_\nIG|-|NEr ???? // ///??\n   [[I spy with my little eye]]")
-
-    Game.world.music:play("scamton")
+    moss = function(cutscene, event)
 
 
-    cutscene:panTo("scamstart")
+        Assets.playSound("moss_fanfare")
+        
+        cutscene:text("* [color:green]You found the moss!")
 
 
-    local x = event.x + event.width/2
-    local y = event.y + event.height/2
+    end,
 
-    cutscene:text("* what a [[peasant.]][wait:5] \n    surpri$!! !11 !")
-    cutscene:text("* NOW i [can] fin[wait:1]n[wait:2]n[wait:3]il[wait:5]i . ....    .]")
-    cutscene:text("[[BIG SHOT]].")
-    cutscene:text("* [proceed with] out cuatioon")
-    cutscene:walkTo(scamtonneo, x, y, 0.75, "left")
-    cutscene:text("* lemme at yer [[culmination of your very being]]")
-    
-    cutscene:text("* ... ")
-    cutscene:text("* where is it??? ")
-    cutscene:text("* [color:purple]don't see that heart??\n[wait:5][color:green] no[color:purple]\n[wait:5][[shit!!]] !!11 11")
-    cutscene:text("* [Buh-bye!!!!]")
-    cutscene:walkTo(scamtonneo, x+320, y, 2, "right")
-    scamtonneo:shake(4)
-    cutscene:walkTo(scamtonneo, x+20, y, 1, "left")
-    cutscene:text("* OH R1gHt!!!       I\n4lmost [forgor]")
-    cutscene:text("* [here, have fun.]")
-    cutscene:walkTo(scamtonneo, x+640, y, 0.5, "right")
-    cutscene:attachCamera()
-    Game.world.music:play("scamtonareaambient")
+    scamready = function(cutscene, event)
 
-    Game:setFlag("scamsign", true)
-    Game:setFlag("scamready", false)
-    cutscene:startEncounter("spamemail")
-
-    
-
+        Game:setFlag("scamready", true)
 
     end
 

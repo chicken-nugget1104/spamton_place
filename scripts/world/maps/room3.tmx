@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="29">
+<map version="1.11" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="31">
  <editorsettings>
   <export target="room3.lua" format="lua"/>
  </editorsettings>
@@ -51,7 +51,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
@@ -91,7 +91,22 @@
   <object id="28" name="npc" x="978.5" y="421.5">
    <properties>
     <property name="actor" value="scamtonneo"/>
+    <property name="flagcheck" value="scamready"/>
     <property name="text" value="* placeholder text"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="29" name="interactable" x="40" y="720" width="40" height="40">
+   <properties>
+    <property name="cutscene" value="general.moss"/>
+    <property name="once" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="30" name="npc" x="1160" y="400">
+   <properties>
+    <property name="actor" value="sign"/>
+    <property name="flagcheck" value="scamsign"/>
+    <property name="text" value="* (looks like a sign.)"/>
    </properties>
    <point/>
   </object>

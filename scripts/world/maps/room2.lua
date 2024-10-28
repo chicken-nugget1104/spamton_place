@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 6,
-  nextobjectid = 22,
+  nextobjectid = 23,
   properties = {
     ["music"] = "spamton_castle",
     ["name"] = "SPAMTON'S [Awesome epic battle arena]"
@@ -334,6 +334,21 @@ return {
           properties = {
             ["text1"] = "* (A beautiful family portrait.)",
             ["text2"] = "* (too bad it's so low resolution.)"
+          }
+        },
+        {
+          id = 22,
+          name = "script",
+          type = "",
+          shape = "rectangle",
+          x = 400,
+          y = 0,
+          width = 120,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["cutscene"] = "general.scamready"
           }
         }
       }
