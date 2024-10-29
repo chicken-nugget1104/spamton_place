@@ -1,5 +1,5 @@
 return {
-  version = "1.11",
+  version = "1.10",
   luaversion = "5.1",
   tiledversion = "1.11.0",
   class = "",
@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 6,
-  nextobjectid = 60,
+  nextobjectid = 69,
   properties = {
     ["music"] = "spamton_castle",
     ["name"] = "SPAMTON'S BIG [[get the fuck out of my room im playing minecraft]]"
@@ -164,7 +164,7 @@ return {
           shape = "rectangle",
           x = 600,
           y = 160,
-          width = 200,
+          width = 240,
           height = 40,
           rotation = 0,
           visible = true,
@@ -190,7 +190,7 @@ return {
           shape = "rectangle",
           x = 600,
           y = 280,
-          width = 200,
+          width = 240,
           height = 40,
           rotation = 0,
           visible = true,
@@ -308,7 +308,7 @@ return {
           x = 80,
           y = 440,
           width = 40,
-          height = 240,
+          height = 80,
           rotation = 0,
           visible = true,
           properties = {}
@@ -400,6 +400,84 @@ return {
           y = 0,
           width = 520,
           height = 120,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 60,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 80,
+          y = 600,
+          width = 40,
+          height = 80,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 61,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 0,
+          y = 600,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 62,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 0,
+          y = 480,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 64,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = -80,
+          y = 600,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 65,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = -80,
+          y = 480,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 66,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = -80,
+          y = 520,
+          width = 40,
+          height = 80,
           rotation = 0,
           visible = true,
           properties = {}
@@ -536,6 +614,22 @@ return {
             ["actor"] = "rudinnex",
             ["encounter"] = "rudinnex"
           }
+        },
+        {
+          id = 67,
+          name = "transition",
+          type = "",
+          shape = "rectangle",
+          x = -40,
+          y = 520,
+          width = 40,
+          height = 80,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["map"] = "room4",
+            ["marker"] = "entry"
+          }
         }
       }
     },
@@ -573,6 +667,19 @@ return {
           shape = "point",
           x = 760,
           y = 240,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 68,
+          name = "entry4",
+          type = "",
+          shape = "point",
+          x = 38.4925,
+          y = 575.802,
           width = 0,
           height = 0,
           rotation = 0,
