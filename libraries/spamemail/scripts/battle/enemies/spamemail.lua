@@ -27,14 +27,19 @@ function Spamemail:init()
     self.waves = {
         "basicf",
         "aimingf",
-        "movingarenaf"
+        "movingarenaf",
+        "multiply"
     }
 
     -- Dialogue randomly displayed in the enemy's speech bubble
     self.dialogue = {
         "CLICK H3R3 0r [[bad time]]",
         "NOW [That] WAS 4 B1G SH0T",
-        "T4Ke tH3 DE4L!!11!1"
+        "T4Ke tH3 DE4L!!11!1",
+        "3Nl4RG3 Y0uRs31f!!!1!1!",
+        "CLICK H3R3 f0R [[WOO-HOO! I LIKE-A THE LASAGNA!]]",
+        "fR33 [[printiNG services]]",
+        "DE4L w1th M3!1!11!!!1"
     }
 
     -- Check text (automatically has "ENEMY NAME - " at the start)
@@ -43,7 +48,7 @@ function Spamemail:init()
     -- Text randomly displayed at the bottom of the screen each turn
     self.text = {
         "* The Spam-email is adverti$ing!!1!!11.",
-        "* The.",
+        "* You're really truly FLIPPIN' BONED!\nTo your pleas im cold as stone!",
         "* Smells like... [wait:5]\nA great deal.",
     }
     -- Text displayed at the bottom of the screen when the enemy has low health

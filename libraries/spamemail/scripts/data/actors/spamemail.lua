@@ -50,7 +50,7 @@ function actor:init()
     self.offsets = {
         -- Since the width and height is the idle sprite size, the offset is 0,0
         ["idle"] = {0, 0},
-        ["hurt"] = {0, 0},
+        ["hurt"] = {2, 1},
     }
 end
 
